@@ -25,7 +25,7 @@ libs   =  -L/usr/lib -llapack -lblas -lm
 ifeq ($(DEBUG), 1)
 	flags += -g
 else
-	flags += -O3
+	#flags += -O3
 endif
 #=================================================
 

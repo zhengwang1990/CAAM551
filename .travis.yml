@@ -5,6 +5,9 @@ script:
  - make
  - ./main
 
+before_install:
+sudo apt-get install liblapack-dev
+
 os:
  - linux
 

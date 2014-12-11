@@ -4,3 +4,10 @@ compiler:
 script:
  - make
  - ./main
+
+notifications:
+  email:
+    recipients:
+      - zheng.wang.rice@gmail.com
+    on_success: [never]
+    on_failure: [always]

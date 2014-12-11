@@ -5,6 +5,9 @@ script:
  - make
  - ./main
 
+os:
+ - linux
+
 notifications:
   email:
     recipients:
